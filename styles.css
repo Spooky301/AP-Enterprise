@@ -2,9 +2,9 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: 
-        url(https://www.imghippo.com/i/jtq1611YoA.png) center center/cover, /* Graffiti image */
+        url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%221000%22%20height%3D%22700%22%3E%3Cpath%20d%3D%22M50%20250%20L200%20200%20L250%20250%20L500%20200%20L600%20250%20L750%20200%20L800%20250%20L950%20200%22%20fill%3D%22none%22%20stroke%3D%22#ff0000%22%20stroke-width%3D%2215%22/%3E%3C/svg%3E') center center/cover, /* Graffiti SVG */
         linear-gradient(to top, #000, #ff0000, #ff4500, #ffae00, #ffff00); /* Fire gradient */
-    background-size: cover; /* Ensures the graffiti image fills the space */
+    background-size: cover; /* Ensures the SVG fills the space */
     color: #fff; /* White text */
     display: flex;
     justify-content: center;
@@ -12,83 +12,4 @@ body {
     height: 100vh;
     animation: fire-animation 5s infinite alternate; /* Adds a flicker effect */
     box-sizing: border-box;
-}
-
-.container {
-    text-align: center;
-    padding: 20px;
-    max-width: 90%; /* Prevents overflow */
-    z-index: 2; /* Ensures content is above the background */
-}
-
-header h1 {
-    font-size: 2.5em;
-    color: #fff; /* White text for contrast */
-    margin-bottom: 10px;
-    letter-spacing: 2px; /* Adds space between letters for better readability */
-}
-
-header p {
-    font-size: 1.2em;
-    color: #ccc; /* Light grey for the subtitle */
-}
-
-.social-links {
-    list-style-type: none;
-    padding: 0;
-}
-
-.social-links li {
-    margin: 10px 0;
-}
-
-.social-links a {
-    text-decoration: none;
-    color: #fff; /* White links */
-    font-size: 1.5em;
-    transition: color 0.3s ease;
-    display: inline-block;
-}
-
-.social-links a:hover {
-    color: #ffae00; /* Fiery orange highlight on hover */
-}
-
-/* Fire flicker effect */
-@keyframes fire-animation {
-    0% {
-        background-position: 0% 100%;
-    }
-    100% {
-        background-position: 100% 0%;
-    }
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px; /* Adjust font size for smaller screens */
-    }
-
-    header h1 {
-        font-size: 2em; /* Smaller header text */
-    }
-
-    .social-links a {
-        font-size: 1.2em; /* Adjust link size */
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        font-size: 12px; /* Even smaller font for mobile devices */
-    }
-
-    header h1 {
-        font-size: 1.8em;
-    }
-
-    .social-links a {
-        font-size: 1.1em; /* Adjust link size further */
-    }
 }
