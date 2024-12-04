@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: 
-        url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%221000%22%20height%3D%22700%22%3E%3Cpath%20d%3D%22M50%20250%20L200%20200%20L250%20250%20L500%20200%20L600%20250%20L750%20200%20L800%20250%20L950%20200%22%20fill%3D%22none%22%20stroke%3D%22#ff0000%22%20stroke-width%3D%2215%22/%3E%3C/svg%3E') center center/cover, /* Graffiti SVG */
+        url(https://www.imghippo.com/i/jtq1611YoA.png) center center/cover, /* Graffiti SVG */
         linear-gradient(to top, #000, #ff0000, #ff4500, #ffae00, #ffff00); /* Fire gradient */
     background-size: cover; /* Ensures the SVG fills the space */
     color: #fff; /* White text */
