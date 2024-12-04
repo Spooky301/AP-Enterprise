@@ -1,93 +1,20 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: 
-        conic-gradient(from 0deg, #000, #ff0000, #ff4500, #ffae00, #ffff00); /* Spiral gradient */
-    background-size: cover; /* Ensures the gradient fills the space */
-    color: #fff; /* White text */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    box-sizing: border-box;
-    animation: fire-animation 5s infinite alternate; /* Adds a flicker effect */
-}
-
-.container {
-    text-align: center;
-    padding: 20px;
-    max-width: 90%; /* Prevents overflow */
-    z-index: 2; /* Ensures content is above the background */
-}
-
-header h1 {
-    font-size: 2.5em;
-    color: #fff; /* White text for contrast */
-    margin-bottom: 10px;
-    letter-spacing: 2px; /* Adds space between letters for better readability */
-}
-
-header p {
-    font-size: 1.2em;
-    color: #ccc; /* Light grey for the subtitle */
-}
-
-.social-links {
-    list-style-type: none;
-    padding: 0;
-}
-
-.social-links li {
-    margin: 10px 0;
-}
-
-.social-links a {
-    text-decoration: none;
-    color: #fff; /* White links */
-    font-size: 1.5em;
-    transition: color 0.3s ease;
-    display: inline-block;
-}
-
-.social-links a:hover {
-    color: #ffae00; /* Fiery orange highlight on hover */
-}
-
-/* Fire flicker effect */
-@keyframes fire-animation {
-    0% {
-        background-position: 0% 100%;
-    }
-    100% {
-        background-position: 100% 0%;
-    }
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px; /* Adjust font size for smaller screens */
-    }
-
-    header h1 {
-        font-size: 2em; /* Smaller header text */
-    }
-
-    .social-links a {
-        font-size: 1.2em; /* Adjust link size */
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        font-size: 12px; /* Even smaller font for mobile devices */
-    }
-
-    header h1 {
-        font-size: 1.8em;
-    }
-
-    .social-links a {
-        font-size: 1.1em; /* Adjust link size further */
-    }
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Links</title>
+    <!-- Link the external CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>͓̽A͓͓̽̽P͓̽ ͓̽E͓͓̽̽n͓͓̽̽t͓͓̽̽e͓͓̽̽r͓͓̽̽p͓͓̽̽r͓͓̽̽i͓͓̽̽z͓͓̽̽e͓͓̽̽s͓̠̽</h1>
+            <p>Connect with me on social media</p>
+        </header>
+        <main>
+            <ul class="social-links">
+                <li><a href="https://www.instagram.com/krazyap419?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a></li>
+                <li><a href="https://youtube.com/@krazyapenterprizes?feature=shared" target="_blank">YouTube</a></li>
+                <li><a href="https://open.spotify.com/artist/6mRqFo
